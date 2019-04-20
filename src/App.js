@@ -14,7 +14,7 @@ class App extends Component {
             <Card
               hoverable
               className="card"
-              cover={<img alt="profile" className="pro-Images" src={require("./Images/myPic.jpg")} />}
+              cover={<img alt="profile" className="pro-Images" src={require("./Images/my_profile.jpg")} />}
             > <Meta
                 title="Theerat Kanisaraphongphon"
                 description="Software Developer"
