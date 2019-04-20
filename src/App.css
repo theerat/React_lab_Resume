@@ -17,21 +17,26 @@ ul{
 }
 
 .App {
-  display: flex;
-  flex-direction: row;
   margin-left: 200px;
   margin-right: 200px;
+  padding: 50px; 
+  /* display: flex;
+  flex-direction: row;
+  
+  
+  opacity: 0.8; */
 }
 
 @media (max-width: 768px) 
 {
   .App
   {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+      flex-direction: column;      
       margin-left: 20px;
       margin-right: 20px;
-  } 
+      padding: 17px;
+  }   
 }
 .app-left
 {
