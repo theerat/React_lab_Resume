@@ -20,23 +20,26 @@ ul{
   margin-left: 200px;
   margin-right: 200px;
   padding: 50px; 
-  /* display: flex;
-  flex-direction: row;
-  
-  
-  opacity: 0.8; */
+  opacity: 0.9;
 }
+
+.card{
+  width: 300px;
+} 
 
 @media (max-width: 768px) 
 {
   .App
   {
-    display: flex;
+      display: flex;
       flex-direction: column;      
       margin-left: 20px;
       margin-right: 20px;
       padding: 17px;
-  }   
+  }  
+  .card{
+    width: 100%;
+  } 
 }
 .app-left
 {
