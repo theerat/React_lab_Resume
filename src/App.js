@@ -5,7 +5,6 @@ import './App.css';
 class App extends Component {
 
   render() {
-
     const { Meta } = Card;
     return (
       <div className="App ant-card ant-card-bordered" style={{}}>
@@ -41,7 +40,7 @@ class App extends Component {
             <div style={{ marginTop: 20 }}>
               <Divider orientation="left">SKILL</Divider>
               <ul>
-                <li ><Rate allowHalf defaultValue={4} /><b>C#</b></li>
+                <li><Rate allowHalf defaultValue={4} /><b>C#</b></li>
                 <li><Rate allowHalf defaultValue={3} /><b>API</b></li>
                 <li><Rate allowHalf defaultValue={3} /><b>.NET CORE</b></li>
                 <li><Rate allowHalf defaultValue={3} /><b>SHAREPOINT</b></li>
@@ -56,7 +55,6 @@ class App extends Component {
               </ul>
             </div>
           </Col>
-
         </Row>
       </div>
     );
